@@ -1,0 +1,133 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    color: #f00;
+}
+.all {
+    width: 1100px;
+    height: 890px;
+    margin: 50px  auto;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-sizing: border-box;
+} 
+.all h1 {
+    
+    text-align: center;
+    margin: 35px auto;
+    color:#999;
+    font-weight: normal;
+}
+.all .list {
+    width: 93%;
+    height: 78%;
+    margin: 15px 35px ;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.all .list .one {
+    width: 99%;
+    
+}
+.one .content {
+    width: 50%;
+    float: left;
+    margin: 5px;
+    margin-bottom: 10px;
+} 
+.one .content .image {
+    width: 16%;
+    height: 80px;
+    float: left;
+    background-color: #ddd;
+    margin: 5px;
+}
+ .one .content .image img {
+    width: 100%;
+    height: 100%;
+    
+}
+.one .content .text {
+    width: 76%;
+    float: left;
+    margin:10px  8px;
+}
+.one .content .text h4 {
+   margin:  8px 5px 5px;
+   color:#888;
+   font-weight: normal;
+}
+.one .content .text span {
+    margin:  5px ;
+    font-size: 14px;
+    font-weight: bold;
+    color:#888;
+}
+.content .text p {
+    margin: 5px;
+    font-size: 13px;
+    color:#888;
+}
+.content .text p .aa{
+    margin-left: 0px;
+}
+
+.one .string {
+    width: 43%;
+    float: right;
+    margin: 39px 5px ;
+}
+.one .string p{
+   float: left;
+   margin: 5px 30px 0 -40px;
+   font-size: 15px;
+    color:#888; 
+    text-align: right;
+
+}
+.one .string button {
+    float: right;
+    width: 225px;
+    height: 23px;
+    padding: 3px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px ;
+    font-weight: bold;
+    border: none;
+    background-color:#f00 ;
+}
+.one .string .ppp{
+    background-color:#00f
+} 
+.one .string .fff {
+    background-color:#0f0 ;
+}
+.list hr {
+    width: 1020px;
+    height: 1px;
+    background-color: #ddd;
+    border: none;
+    margin-left: -10px;
+   
+
+}
+ .all .mmm {
+   
+    width: 200px;
+    height: 35px;
+    padding: 5px;
+    border: 2px solid #0f0;
+    color:#0f0;
+    background-color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin: 5px ;
+    margin-left: 450px;
+}
+
