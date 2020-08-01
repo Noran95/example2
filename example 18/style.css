@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    color: rgb(12, 77, 252);
+}
+.all {
+    width: 950px;
+    height: 600px;
+    margin: 50px auto;
+    border: 2px solid #ccc;
+    display: flex;
+}
+.first, .second {
+width: 46%;
+height: 86%;
+margin: 30px;
+align-items: center;
+overflow: visible;
+border-radius: 15px 0 0 15px;
+
+}
+.first {
+    background-color: #FFF;
+    border: 15px  solid #333;
+    border-right: 0;
+    margin-right: 0;
+}
+
+.second {
+    background-color:#333; 
+    border: 15px solid #fff;
+    border-left: 0;
+    margin-left: 0;
+}
+
+.second .image {
+    width: 97% ;
+    height: 97%;
+    text-align: center;
+    margin: 35px 0 0 0;
+    margin-left: -213px;
+}
+
+.image img {
+width: 95%;
+height: 95%;
+}

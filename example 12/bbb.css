@@ -1,0 +1,97 @@
+
+body{
+    font-family: tahoma ,arial ;
+    
+}
+h1 {
+text-align: center ;
+}
+.all{
+width: 870px;
+height: 380px;
+margin: 100px auto;
+padding: 3px;
+border: 2px solid #ccc;
+background-color: rgb(32, 191, 169);
+background-clip: content-box;
+-webkit-column-count: 2;
+column-count:2;
+-webkit-column-rule: 2px solid #fff ;
+column-rule: 2px solid #fff ;
+}
+  .first  {
+    width: 290px;
+    height: 280px;
+    margin: 50px 40px;
+    margin-left: 70px;
+    padding: 0px ;
+    background-color: #fff;
+    border-radius: 10px;
+    float: left;
+   
+}
+.first header {
+    height: 60px;
+    margin: -17px 0px 20px;
+    padding: 1px 5px 25px ;
+    background-color: black;
+    border-radius: 10px 10px 1px 1px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.first header span{
+    color: rgb(76, 175, 80) ;
+}
+.first .sub{
+    width: 220px;
+    height: 190px;
+    margin-top: 0;
+    margin: -50px 0px 20px 28px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 6px #ccc ,-3px 0px 6px #ccc;
+}
+
+
+
+.container {
+    width: 210px;
+    margin: auto ;
+    margin-bottom: 25px;
+    text-align: left;
+  
+}
+.first .sub ul {
+list-style-type: circle;
+list-style-position: outside;
+}
+.first .sub button {
+    width: 135px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(247, 56, 89);
+    background-color: rgb(247, 56, 89);
+    color: #fff;
+    font-size: 15px;
+
+}
+.or{
+    width: 55px;
+    height: 55px;
+    margin-top: 155px;
+    margin-right: -35px;
+    border-radius: 50%;
+    background-color: #fff;
+    float: right;
+}
+.or p{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(32, 191, 169);
+    font-weight: bold;
+}
+

@@ -1,0 +1,106 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    color: rgb(142, 68, 173);
+}
+.all {
+    width: 1000px;
+    height: 420px;
+    margin: 100px auto;
+    padding: 5px;
+    background-color: rgb(250, 246, 246);
+    border: 3px solid #ccc;
+    background-clip: content-box;
+}
+.container {
+    width: 870px;
+    height: 300px;
+    margin: 60px;
+    background-color: #fff;
+}
+.num1{
+    width: 240px;
+    height: 150px;
+    background-color: rgb(26, 188, 156);
+    text-align: center;
+    color: #fff;
+    float: left;
+    line-height: 135px;
+    font-size: 18px;
+}
+.num2{
+    width: 450px;
+    height: 75px;
+    background-color: rgb(230, 126, 34);
+    text-align: center;
+    color: #fff;
+    float: left;
+    line-height: 80px;
+    font-size: 18px;
+}
+.num3{
+    width: 450px;
+    height: 75px;
+    background-color: rgb(39, 174, 96);
+    text-align: center;
+    color: #fff;
+    float: left;
+    line-height: 80px;
+    font-size: 18px;
+}
+.num4 {
+    width: 180px;
+    height: 150px;
+    background-color: rgb(243, 156, 18);
+    text-align: center;
+    color: #fff;
+    float: left;
+    margin-top: -75px;
+    line-height: 135px;
+    font-size: 18px;
+}
+.num5 {
+    width: 365px;
+    height: 75px;
+    background-color: rgb(52, 152, 219);
+    text-align: center;
+    color: #fff;
+    float: left;
+    line-height: 80px;
+    font-size: 18px;
+    
+}
+.num6{
+    width: 150px;
+    height: 75px;
+    background-color: rgb(142, 68, 173);
+    text-align: center;
+    color: #fff;
+    float: left;
+    line-height: 80px;
+    font-size: 18px;
+    
+}.num7{
+    width: 515px;
+    height: 75px;
+    background-color: rgb(44, 62, 80);
+    text-align: center;
+    color: #fff;
+    float: left;
+    line-height: 80px;
+    font-size: 18px;
+}
+.num8{
+    width: 355px;
+    height: 150px;
+    background-color: rgb(192, 57, 43);
+    text-align: center;
+    color: #fff;
+    float: left;
+    margin-top: -75px;
+    line-height: 135px;
+    font-size: 18px;
+    
+}

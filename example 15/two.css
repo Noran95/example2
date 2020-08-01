@@ -1,0 +1,132 @@
+body{
+    font-family: arial,tahoma;
+}
+h1{
+    text-align: center;
+}
+.all{
+    width: 575px;
+    height: 650px;
+    margin: 50px auto;
+    padding :3px;
+    background-color:none;
+    border: 1px solid #ddd
+
+}
+.first, .second {
+    width: 250px;
+    height: 550px;
+    border: 1px solid #ddd;
+    text-align: center;
+    float: left;
+}
+.first{
+    background-color: rgb(198, 63, 224);
+    color: #fff;
+    margin: 75px 15px 20px 20px;
+}
+
+.second{
+    background-color: #fff;
+    margin: 75px 20px 20px 15px;
+}
+.first h2, .second h2 {
+    text-transform: uppercase;
+
+}
+.first p {
+    font-weight: bold;
+ }
+ .second p {
+    font-weight: bold;
+    color: #9e9e9e;
+}
+
+.sub1{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    margin: -60px auto 0;
+    background-color:#fff;
+    border: 1px solid rgb(198, 63, 224);
+    color:#fff;
+} 
+.sub2{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    margin: -60px auto 0;
+    background-color:#fff;
+    border: 1px solid #ddd;
+    color:#fff;
+}
+.sub3{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 27px 0px 0px 8px;
+    background-color:rgb(198, 63, 224);
+}
+
+.sub4{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 7px 0px 0px 8px;
+    background-color:#333 ;
+}
+
+
+.sub1 .sub3 .aaa{
+    width: 50px ;
+    height:50px;
+    border-radius: 50%;
+    margin: -20px 0 0px 95px;
+    background-color: #fff;
+    border: 1px solid rgb(198, 63, 224);
+    color: rgb(198, 63, 224);
+    line-height: 42px;
+    font-size:20px ;
+}
+.sub1 span {
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 0px;
+}
+.sub2 span {
+    line-height: 105px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.sub1 p{
+    color: #fff;
+    line-height: 42px;
+    font-size: 16px ;
+    margin-top: -10px;
+}
+.sub2 p{
+    color: #fff;
+    margin-top: -35px;
+    font-size: 16px;
+}
+.first button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 20px auto;
+    color: rgb(198, 63, 224);
+    font-size: 16px;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+.second button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 20px auto;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid rgb(198, 63, 224);
+    background-color:rgb(198, 63, 224);
+}
+

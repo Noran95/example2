@@ -1,0 +1,172 @@
+body{
+    font-family: Arial, tahoma;
+}
+h1{
+    text-align: center;
+    color: rgb(46, 202, 127); ;
+}
+.all{
+    width: 1100px;
+    height: 610px;
+    margin: 50px auto;
+    padding: 3px;
+    border: 2px solid #eee;
+    background-color:rgb(247, 248, 249) ; 
+    background-clip: content-box;
+    box-sizing: border-box;
+}
+.container {
+    width: 800px;
+    margin: auto;
+}
+/* start header*/
+header {
+width: 95%;
+height: 95px;
+margin: 25px 25px 0;
+background-color: rgb(46, 202, 127);
+border-radius: 8px 8px 0px 0px;
+color: #fff;
+}
+header .image {
+    width: 75px;
+    height: 75px;
+    margin: 10px 10px 10px -50px;
+    float: left;
+}
+header .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+header h2{
+    margin: 20px 5px 5px ;
+    float: left;
+}
+header p{
+    margin: 55px 0px 5px -105px;
+    float: left;
+}
+header h5{
+    margin: 25px 30px 5px 5px;
+    float: right;
+}
+header ul{
+    list-style: none;
+    margin: 45px -185px 5px 0;
+    padding: 0px;
+    overflow: hidden;
+    float: right;
+    text-align: center;
+}
+header ul li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: rgb(46, 202, 127);
+    font-size: 16px;
+}
+header ul li .fa-lg {
+    font-size: 15px;
+    line-height: .75em;
+    vertical-align: -48%;
+}
+/* end header*/
+/* start aside*/
+aside {
+    width: 13% ;
+    height: 455px;
+    margin: 0 0 25px 25px;
+    background-color: #fff;
+    float: left;
+    border-right: 1px solid rgb(233, 237, 241);
+    box-shadow: -5px 5px 6px  rgb(233, 237, 241);
+}
+aside ul{
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 20px 5px;
+}
+aside ul li{
+    margin: 40px 0 5px -5px;
+}
+aside ul li span{
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    margin: 0px 7px 4px 0px;
+    background-color: #fff;
+}
+.fa-lg {
+    font-size: 15px;
+    line-height: .75em;
+    vertical-align: 5%;
+}
+aside ul li :hover { color:rgb(46, 202, 127); cursor: pointer;}
+aside ul li span :hover { background-color:rgb(46, 202, 127);cursor: pointer; }
+aside ul .active {color:rgb(46, 202, 127); cursor: pointer;}
+aside ul .active span {background-color:rgb(46, 202, 127);cursor: pointer;}
+ /* end aside*/
+ /* start content*/
+ .content {
+     width: 82%;
+     height: 455px;
+     background-color: #fff;
+     margin: 0 ;
+     float: left;
+     box-shadow: 5px 5px 6px  rgb(233, 237, 241);
+ }
+ .content .image {
+     width: 45%;
+     float: left;
+     margin:  20px 10px;
+
+ }
+ .content .image img {
+     width: 95%;
+     height: 100%;
+ }
+ .content .text {
+     width: 45%;
+     float: left;
+     margin:  35px 5px 20px;
+     font-size: 15px;
+ }
+ .content .text h2{
+     margin-bottom: 0;
+ }
+ .content .text .aaa {
+     display: inline-block;
+     width: 40px;
+     height: 10px;
+     border-radius: 5px;
+     background-color: rgb(46, 202, 127);
+
+ }
+ .content .text .bbb {
+    display: inline-block;
+    width: 65px;
+    height: 2px;
+    background-color: rgb(46, 202, 127);
+    margin: 0 0 4px -6px;
+ }
+
+ .content .text p {color: #555; line-height: 1.6; }
+ .content .text button {
+     background-color: rgb(46, 202, 127); 
+     color: #FFF;
+     padding: 10px 15px;
+     border: none;
+     border-radius: 5px;
+     font-size: 15px;
+ }
+ .content .text button .fa-lg {
+    font-size: 20px;
+    line-height: .75em;
+    vertical-align: -13%;
+}
+ 
